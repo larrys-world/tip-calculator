@@ -184,6 +184,14 @@ export default function Home() {
             Adjust based on your experience!
           </p>
         </div>
+        
+        {/* Footer */}
+        <footer className="mt-8 py-4 text-center text-sm text-gray-600">
+          <p>
+            © 2026 Tip Calculator | 
+            <a href="/privacy" className="ml-1 hover:text-gray-900 underline">Privacy Policy</a>
+          </p>
+        </footer>
       </div>
     </main>
   )
