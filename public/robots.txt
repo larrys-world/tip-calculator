@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tip-calculator.vercel.app/sitemap.xml
+Sitemap: https://larrys-world.github.io/tip-calculator/sitemap.xml
