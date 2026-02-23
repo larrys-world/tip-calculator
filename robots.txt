@@ -1,0 +1,8 @@
+# Robots.txt for Tip Calculator
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://larrys-world.github.io/tip-calculator/sitemap.xml
