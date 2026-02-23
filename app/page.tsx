@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import AdSense from '../components/AdSense'
 
 export default function Home() {
   const [billAmount, setBillAmount] = useState('')
@@ -42,6 +43,9 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-md mx-auto">
+        {/* Top Ad */}
+        <AdSense slot="top-banner" format="horizontal" className="mb-6" />
+        
         <h1 className="text-3xl font-bold text-gray-900 text-center mb-8">
           Tip Calculator
         </h1>
@@ -177,12 +181,22 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Mid-content Ad */}
+        <div className="mt-6">
+          <AdSense slot="mid-content" format="rectangle" />
+        </div>
+
         {/* Info Section */}
         <div className="mt-8 text-center text-sm text-gray-600">
           <p>
             Quick tip: In the US, 15-20% is standard for good service.
             Adjust based on your experience!
           </p>
+        </div>
+        
+        {/* Bottom Ad */}
+        <div className="mt-6">
+          <AdSense slot="bottom-content" format="rectangle" />
         </div>
         
         {/* Footer */}
