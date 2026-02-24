@@ -8,11 +8,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Tip Calculator - Calculate Tips & Split Bills | Free Online Tool',
-  description: 'Free tip calculator for restaurants, delivery, and services. Calculate tips instantly, split bills among groups, and learn proper tipping etiquette. Works on any device.',
+  description: 'Split bills & calculate tips instantly! Perfect for restaurants, bars, delivery. Handles groups, custom tips, tax. Never overpay or undertip again →',
   keywords: 'tip calculator, gratuity calculator, bill splitter, restaurant tip calculator, tipping calculator, tip percentage, split bill calculator, service tip, delivery tip calculator, tipping etiquette, how much to tip',
   openGraph: {
     title: 'Tip Calculator - Quick & Accurate Tip Calculations',
-    description: 'Calculate tips and split bills instantly. Free tool with customizable percentages, group splitting, and tipping guides for all services.',
+    description: 'Split bills & calculate tips instantly! Handles groups, custom percentages, tax. Never overpay again →',
     type: 'website',
     url: 'https://larrys-world.github.io/tip-calculator/',
     siteName: 'Tip Calculator',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tip Calculator - Free Online Tool',
-    description: 'Calculate tips instantly. Split bills, learn tipping etiquette, and save time.',
+    description: 'Split bills & tips instantly! Never overpay or undertip →',
     images: ['https://larrys-world.github.io/tip-calculator/og-image.png']
   },
   robots: {
@@ -59,7 +59,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: 'Tip Calculator',
-    description: 'Free online tip calculator with bill splitting features',
+    description: 'Split bills & calculate tips instantly! Perfect for restaurants, bars, delivery.',
     url: 'https://larrys-world.github.io/tip-calculator/',
     applicationCategory: 'FinanceApplication',
     operatingSystem: 'Any',
