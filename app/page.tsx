@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import AdSense from '../components/AdSense'
+import BuyMeACoffee from '../components/BuyMeACoffee'
 
 export default function Home() {
   const [billAmount, setBillAmount] = useState('')
@@ -197,7 +198,9 @@ export default function Home() {
         {/* Bottom Ad */}
         <div className="mt-6">
           <AdSense slot="bottom-content" format="rectangle" />
-        </div>
+        
+        {/* Support Section */}
+        <BuyMeACoffee />        </div>
         
         {/* Footer */}
         <footer className="mt-8 py-4 text-center text-sm text-gray-600">
